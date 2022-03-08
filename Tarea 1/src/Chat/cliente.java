@@ -9,7 +9,7 @@ public class cliente extends javax.swing.JFrame {
     static Socket s;
     static DataInputStream dis;
     static DataOutputStream dout;
-    
+
     public cliente() {
         initComponents();
     }
