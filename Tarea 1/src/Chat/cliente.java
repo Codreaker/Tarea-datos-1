@@ -87,4 +87,10 @@ public class cliente extends javax.swing.JFrame {
         }
 
     }
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JScrollPane jScrollPane1;
+    private static javax.swing.JTextArea msg_area;
+    private javax.swing.JButton msg_send;
+    private javax.swing.JTextField msg_text;
+
 }
