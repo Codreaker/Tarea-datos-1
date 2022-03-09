@@ -112,6 +112,22 @@ public class servidor extends javax.swing.JFrame {
                 new servidor().setVisible(true);
             }
         });
+        try {
+            String msgin = "";
+            ss = new ServerSocket(1201);
+            s = ss.accept();
+            dis = new DataInputStream(s.getInputStream());
+            dout = new DataOutputStream(s.getOutputStream());
+
+            while (!msgin.equals("exit")) {
+                msgin = dis.readUTF();
+                msg_area.setText(msg_area.getText() + "\n Cleint : " + msgin);
+            }
+
+        } catch (Exception e) {
+            //handle the exception here
+        }
+    }
 
 
 
