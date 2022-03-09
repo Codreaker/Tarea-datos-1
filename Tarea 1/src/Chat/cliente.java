@@ -98,7 +98,7 @@ public class cliente extends javax.swing.JFrame {
         try {
             String msgin = "";
 
-            s = new Socket("127.0.0.1",1201); 
+            s = new Socket("127.0.0.1",1201);
             dis = new DataInputStream(s.getInputStream());
             dout = new DataOutputStream(s.getOutputStream());
 
