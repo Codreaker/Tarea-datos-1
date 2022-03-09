@@ -87,6 +87,30 @@ public class cliente extends javax.swing.JFrame {
         }
 
     }
+    public static void main(String args[]) {
+
+
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new cliente().setVisible(true);
+            }
+        });
+        try {
+            String msgin = "";
+
+            s = new Socket("127.0.0.1",1201); 
+            dis = new DataInputStream(s.getInputStream());
+            dout = new DataOutputStream(s.getOutputStream());
+
+            while (!msgin.equals("exit")) {
+                msgin = dis.readUTF();
+                msg_area.setText(msg_area.getText() + "\n Server : " + msgin);
+            }
+
+        } catch (Exception e) {
+
+        }
+    }
     private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private static javax.swing.JTextArea msg_area;
