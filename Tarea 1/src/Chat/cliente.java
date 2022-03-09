@@ -1,16 +1,18 @@
 package Chat;
-
+/* Aqui se realizan los imports necesarios */
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.net.Socket;
 
-
+/* Creacion de la clase cliente */
 public class cliente extends javax.swing.JFrame {
+    /* Creacion de sockets */
     static Socket s;
     static DataInputStream dis;
     static DataOutputStream dout;
 
     public cliente() {initComponents();}
+    /* Creacion de la interfas grafica*/
 
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
