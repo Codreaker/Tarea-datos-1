@@ -18,7 +18,7 @@ public class servidor extends javax.swing.JFrame {
     /* Creacion de la interfas grafica*/
 
 
-
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jScrollPane1 = new javax.swing.JScrollPane();
@@ -33,7 +33,7 @@ public class servidor extends javax.swing.JFrame {
         msg_area.setRows(5);
         jScrollPane1.setViewportView(msg_area);
 
-        msg_send.setText("Enviar");
+        msg_send.setText("send");
         msg_send.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 msg_sendActionPerformed(evt);
@@ -41,7 +41,7 @@ public class servidor extends javax.swing.JFrame {
         });
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jLabel1.setText("Servidor");
+        jLabel1.setText("Server");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -75,7 +75,7 @@ public class servidor extends javax.swing.JFrame {
         );
 
         pack();
-    }
+    }// </editor-fold>//GEN-END:initComponents
     private void msg_sendActionPerformed(java.awt.event.ActionEvent evt) {
         /* Creacion del metodo de entrada y salida de mensages */
         try{
