@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="64430404-652d-4b93-b5e4-daacbf0b107f" name="Changes" comment="" />
+=======
+    <list default="true" id="64430404-652d-4b93-b5e4-daacbf0b107f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chat/cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chat/servidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/servidor.java" afterDir="false" />
+    </list>
+>>>>>>> parent of 5800bff (Comentador de codigo)
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,8 +84,12 @@
       <updated>1646782338118</updated>
       <workItem from="1646782339200" duration="2584000" />
       <workItem from="1646837367212" duration="2323000" />
+<<<<<<< HEAD
       <workItem from="1646940858530" duration="1081000" />
       <workItem from="1646941981926" duration="701000" />
+=======
+      <workItem from="1646940858530" duration="379000" />
+>>>>>>> parent of 5800bff (Comentador de codigo)
     </task>
     <servers />
   </component>

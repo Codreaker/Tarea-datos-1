@@ -14,7 +14,6 @@ public class cliente extends javax.swing.JFrame {
     public cliente() {initComponents();}
     /* Creacion de la interfas grafica*/
 
-
     private void initComponents() {
 
         jScrollPane1 = new javax.swing.JScrollPane();
