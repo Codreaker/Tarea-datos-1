@@ -1,18 +1,21 @@
 package Chat;
-
+/* Aqui se realizan los imports necesarios */
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+/* Creacion de la clase cliente */
 public class servidor extends javax.swing.JFrame {
 
+    /* Creacion de sockets */
     static ServerSocket ss;
     static Socket s;
     static DataInputStream dis;
     static DataOutputStream dout;
 
     public servidor() {initComponents();}
+    /* Creacion de la interfas grafica*/
 
 
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -74,6 +77,7 @@ public class servidor extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
     private void msg_sendActionPerformed(java.awt.event.ActionEvent evt) {
+        /* Creacion del metodo de entrada y salida de mensages */
         try{
             String msg="";
             msg=msg_text.getText();
@@ -82,7 +86,7 @@ public class servidor extends javax.swing.JFrame {
         }
         catch(Exception e)
         {
-            //handle the exception here
+
         }
 
     }
@@ -113,6 +117,7 @@ public class servidor extends javax.swing.JFrame {
             }
         });
         try {
+            /* Utilizacion de socket para la creacion del host y port*/
             String msgin = "";
             ss = new ServerSocket(1201);
             s = ss.accept();
@@ -125,12 +130,12 @@ public class servidor extends javax.swing.JFrame {
             }
 
         } catch (Exception e) {
-            //handle the exception here
+
         }
     }
 
 
-
+    /* Creacion de Labels y panels para la interfasgrafica */
     private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private static javax.swing.JTextArea msg_area;

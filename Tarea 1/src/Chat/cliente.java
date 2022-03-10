@@ -75,7 +75,7 @@ public class cliente extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void msg_sendActionPerformed(java.awt.event.ActionEvent evt) {
-
+        /* Creacion del metodo de entrada y salida de mensages */
 
         try{
             String msg="";
@@ -91,7 +91,7 @@ public class cliente extends javax.swing.JFrame {
     }
     public static void main(String args[]) {
 
-
+        /* Utilizacion de socket para la creacion del host y port*/
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new cliente().setVisible(true);
@@ -113,6 +113,7 @@ public class cliente extends javax.swing.JFrame {
 
         }
     }
+    /* Creacion de Labels y panels para la interfasgrafica */
     private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private static javax.swing.JTextArea msg_area;
