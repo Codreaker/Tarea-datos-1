@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64430404-652d-4b93-b5e4-daacbf0b107f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Chat/cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chat/servidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/servidor.java" afterDir="false" />
+    <list default="true" id="64430404-652d-4b93-b5e4-daacbf0b107f" name="Changes" comment="Revert &quot;Comentador de codigo&quot;&#10;&#10;This reverts commit 5800bff6">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +79,7 @@
       <workItem from="1646782339200" duration="2584000" />
       <workItem from="1646837367212" duration="2323000" />
       <workItem from="1646940858530" duration="379000" />
+      <workItem from="1648764175244" duration="137000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;Comentador de codigo&quot;&#10;&#10;This reverts commit 5800bff6">
       <created>1646944581737</created>
