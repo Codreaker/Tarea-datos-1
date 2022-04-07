@@ -14,12 +14,19 @@ import java.io.*;
 public class Tarea2datos {
     
 
-    public void frameworks(){
+    public void frameworks(String Registro){
     File f;
     FileWriter w;
-    BufferedReader bw;
+    BufferedReader bw 
     PrintWriter wr;
         try {
+    f=new File(Registro);
+    w=new FileWriter(f);
+    bw=new BufferedReader(w);
+    wr=new PrintWriter(bw);
+    
+    
+            
             
         }catch (){
             
