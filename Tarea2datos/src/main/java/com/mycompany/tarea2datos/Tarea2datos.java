@@ -25,10 +25,17 @@ public class Tarea2datos {
     bw=new BufferedReader(w);
     wr=new PrintWriter(bw);
     
+    wr.write(inicio);
+    wr.append("\n Registro");
+    wr.append("\n Final");
+    
+    wr.close();
+    bw.close();
     
             
             
-        }catch (){
+        }catch (Exception e){
+            JOptionPane.showMessageDialog(null,"error"+e);
             
         }
     
