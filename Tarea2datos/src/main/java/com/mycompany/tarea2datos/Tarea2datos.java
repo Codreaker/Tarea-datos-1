@@ -3,15 +3,31 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
  */
 
+
+
 package com.mycompany.tarea2datos;
 
-/**
- *
- * @author Personal
- */
-public class Tarea2datos {
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+import java.io.*;
+
+
+public class Tarea2datos {
+    
+
+    public void frameworks(){
+    File f;
+    FileWriter w;
+    BufferedReader bw;
+    PrintWriter wr;
+        try {
+            
+        }catch (){
+            
+        }
+    
+        
     }
+    
+    
+   
 }
