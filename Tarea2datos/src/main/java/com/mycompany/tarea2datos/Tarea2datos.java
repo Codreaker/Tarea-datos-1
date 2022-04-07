@@ -9,6 +9,7 @@ package com.mycompany.tarea2datos;
 
 
 import java.io.*;
+import javax.swing.JOptionPane;
 
 
 public class Tarea2datos {
@@ -17,15 +18,15 @@ public class Tarea2datos {
     public void frameworks(String Registro){
     File f;
     FileWriter w;
-    BufferedReader bw 
+    BufferedWriter bw;
     PrintWriter wr;
         try {
     f=new File(Registro);
     w=new FileWriter(f);
-    bw=new BufferedReader(w);
+    bw=new BufferedWriter(w);
     wr=new PrintWriter(bw);
     
-    wr.write(inicio);
+    wr.write("inicio");
     wr.append("\n Registro");
     wr.append("\n Final");
     
